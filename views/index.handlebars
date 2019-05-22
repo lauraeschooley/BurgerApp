@@ -13,9 +13,9 @@
 <h2>Oh No! These Burgers are all gone!</h2>
 
 <ul>
-  {{#each burgerss}}
+  {{#each burgers}}
     {{#if devoured}}
-      {{> layouts/main devoured=false}}
+      {{> burgers-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
