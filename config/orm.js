@@ -47,7 +47,7 @@ function printQuestionMarks(num) {
     },
     create: function(table, cols, vals, cb) {
       var queryString = "INSERT INTO " + table;
-  
+       console.log(queryString); 
       queryString += " (";
       queryString += cols.toString();
       queryString += ") ";
@@ -87,7 +87,7 @@ function printQuestionMarks(num) {
       var queryString = "DELETE FROM " + table;
       queryString += " WHERE ";
       queryString += condition;
-  
+        console.log(queryString);
       connection.query(queryString, function(err, result) {
         if (err) {
           throw err;
