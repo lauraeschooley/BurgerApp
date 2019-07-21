@@ -1,1 +1,57 @@
-node_modules
+body {
+    background-image: URL("../img/burger.png");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    background: transparent(.05);
+
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.form-box {
+    margin: 150px auto;
+    width: 75%;
+    height: 100%;
+
+    background: rgba(138, 143, 138, 0.3);
+
+}
+
+.form-group {
+    text-align: center;
+}
+
+.submit-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+ul{ 
+    list-style-type:none;
+}
+
+li {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.delete-burger, .change-devoured {
+display: inline-block;
+
+}
